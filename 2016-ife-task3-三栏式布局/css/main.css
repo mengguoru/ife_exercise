@@ -1,0 +1,50 @@
+/*body{*/
+    /*margin:0;*/
+    /*padding:0;*/
+/*}*/
+.container{
+    /*使用css3的flexbox属性*/
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display:flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow:row wrap;
+    flex:3 0px;
+}
+.container > *{
+    padding:20px;
+    background-color: #eee;
+    border:1px solid #999;
+}
+img{
+    width:80px;
+    height:80px;
+}
+.main{
+    /*margin-right:200px;*/
+    text-align: left;
+    width:auto;
+    flex:3 auto;
+}
+.left{
+     float:left;
+     width:200px;
+     /*order:1;*/
+     flex-grow: 0;
+     height:auto;
+ }
+.main{
+    /*order:2;*/
+}
+.right{
+    float:right;
+    width:120px;
+    /*flex:3;*/
+    /*flex-grow: 0;*/
+    height:auto;
+}
+.clear{
+    clear: both;
+}
