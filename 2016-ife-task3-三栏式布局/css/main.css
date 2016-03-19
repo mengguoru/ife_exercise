@@ -48,3 +48,10 @@ img{
 .clear{
     clear: both;
 }
+
+span
+{
+    vertical-align: top;
+    margin-left: 10px;
+    font-size:20px;
+}

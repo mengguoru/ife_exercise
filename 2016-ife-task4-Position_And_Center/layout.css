@@ -1,0 +1,58 @@
+/*
+	BuildTower @ IFE ----- Task 4
+	Powered by AnClark Liu
+	-------------------------------------------------------------------------
+	Remember who gave me a hand!
+	Reference comes from:
+	Codepen.io
+	Translation put out at: http://blog.jobbole.com/46574/
+*/
+
+
+/* 
+	Use a box which is as large as the page to bring about the result.
+	It's a creation as well as a recreation!
+*/
+.main
+{
+	position: absolute;
+	width: 99%;
+	height: 98%;
+	background-color: #FFFFFF;
+}
+
+/* Solution suggested by Codepen.io */
+.base {
+  width: 400px;
+  height: 200px;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  
+  background-color:#ccc;
+}
+/* Solution part end */
+
+.rad1
+{
+	border-bottom-right-radius:50px;
+	position:absolute;
+	width: 50px;
+	height:50px;
+	
+	background-color:#fc0;
+}
+
+.rad2
+{
+	border-top-left-radius:50px;
+	position:absolute;
+	width: 50px;
+	height:50px;
+	
+	right:0%;
+	bottom:0%;
+	
+	background-color:#fc0;
+}
