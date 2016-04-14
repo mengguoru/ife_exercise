@@ -1,0 +1,32 @@
+body{
+    width:980px;
+    height: 1386px;
+}
+header{
+    width:110px;
+    height: 61px;
+
+    /*position: relative;*/
+    /*overflow: auto;*/
+}
+.header-1 {
+    width: 110px;
+    height: 61px;
+    background-color: #d45d5c;
+    color:#FFFFFF;
+    font-size:12px;
+    font-family:"Adobe Fan Heiti Std B";
+
+    /*position: relative;*/
+    float: left;
+}
+span{
+    padding-left: 10px;
+
+    /*position: absolute;*/
+    bottom:2px;
+}
+.header-2{
+    float:right;
+    /*position: absolute;*/
+}
